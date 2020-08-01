@@ -1,125 +1,435 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>Sashank Varma</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
+  <!-- Favicons -->
+  <link href="img/circular.jpg" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-	<style>
-		body{
-			margin:0;
-			background: linear-gradient(to bottom, #333333 0%,#333333 350px,#EDEDED 350px,#EDEDED 100%);
-			font-family:georgia,garamond,serif;font-size:14px;
-		}
-		.onHoverDark:hover { background-color: #222222 !important; color: #BABABA !important;}
-		.hrefWithoutDecoration {text-decoration: none !important; color:black !important;}
-		.activeCustom {color:#FFF}
-		.inactiveCustom {color:#A9A9A9}
-	</style>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
-	<link rel="shortcut icon" type="image/jpg" href="circular.jpg"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Sashank Varma's Home Page">
-	<meta name="author" content="Sashank Varma">
-	<meta charset="UTF-8">
-	<meta name="keywords" content="machine learning, artificial intelligence, coding">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-	<meta property="og:title" content="Sashank Varma's HomePage">
-	<meta property="og:image" content="IMG_20200606_185623.jpg">
-	<meta property="og:description" content="Sashank Varma's Home Page">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-	<title>Sashank Varma</title>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110954752-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-110954752-1');
-	</script>
-
-
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
+
 <body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
 
-<div class="container pt-5 pb-3">
-	<div class="row">
-		<div class="col-lg-8">
-			<div class="row pb-3">
-				<div class="col">
-					<h3 class="text-white">Rudraraju Sashank Varma</h3>
-				</div>
-			</div>
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          
+          <a href="https://www.facebook.com/sashankvarma.rudraraju" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/sashank-varma-0b69071a8" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://instagram.com/sashank__varma?igshid=pi4pbvrjz1k1" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://github.com/sashankvarma2000" class="github" target="_blank"><i class="fa fa-github" target="_blank"></i></a>
+        </div>
+      </div>
+    </div>
 
-			<div class="row mt-3 mb-4 text-center">
-				<div class="col-xl-6">
-					<div class="row">
-						<div class="col">
-							<a class="nav-link onHoverDark activeCustom" href="/">Home</a>
-						</div>
-						<div class="col">
-							<a class="nav-link onHoverDark inactiveCustom" href="/profile">Profile</a>
-						</div>
-						<div class="col">
-							<a class="nav-link onHoverDark inactiveCustom" href="/research">Research</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="row">
-						<div class="col">
-							<a class="nav-link onHoverDark inactiveCustom" href="/latest">Latest</a>
-						</div>
-						<div class="col">
-							<a class="nav-link onHoverDark inactiveCustom" href="/projects">Project</a>
-						</div>
-						<div class="col">
-							<a class="nav-link onHoverDark inactiveCustom" href="/publications">Publication</a>
-						</div>
-					</div>
-				</div>
-			</div>
+    <div class="container">
 
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 pt-5">
-			<div class="row py-5 px-4 bg-light mb-5 shadow mx-1">
-				<div class="col text-center">
-					<img class="pb-10" src="profile.jpg" width="100%" style="max-width: 200px">
-					<br>
-					<h2 style = "text-align = center"> About Me</h2>
-					<p>
-						I am a student at NIT Bombay studying Metallurgical and Materials Engineering, currently in 3rd year. I have been intrigued by machine learning and data science since my second year of engineering. I am very much intrested into competitive programming and proble solving. <br>
-	 				
-						 I am also into public speaking , creative writing and possess qualities like management ,leadership and organizational skills.<br>
-					</p>
-				</div>
-			</div>
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rudraraju Sashank Varma</span></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
 
-			<div class="row pt-5 pb-3 pl-3 bg-light mb-5 shadow mx-1">
-				<div class="col">
-					<h5 class="pb-2"><b>Contact Information</b></h5>
-					<p>
-						<a href="mailto:sashankvarma2000@gmail.com"><strong>Gmaild: </strong> sashankvarma2000@gmail.com</a><br><br>
-						<a href="https://www.linkedin.com/in/sashank-varma-0b69071a8"><strong>LinkedIn</strong> </a><br><br>
-						<a href="https://github.com/sashankvarma2000"><strong>GitHub</strong> </a><br><br>
-						
-						<a href="tel:+91 94936 66588"><strong>Call: +91 94936 66588</strong> </a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-		
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#portfolio">Works</a></li>
+          
+          <li><a href="#footer">Contact Me</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>I am a programmer <br> and <span> developer.</span></h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get to know more about me.</a>
+          </div>
+        </div>
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="img/bgwal.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img src="img/profile.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>About Me</h2>
+              <h3>I am a student at NIT `Warangalstudying Metallurgical and Materials Engineering, currently in 3rd year. I have been intrigued by machine learning and data science since my second year of engineering. I am very much intrested into competitive programming and proble solving. <br></>
+              <h4>I am also into public speaking , creative writing and possess qualities like management ,leadership and organizational skills</h4>
+              <h4>I organised events during fests and a photographer by interest.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- #about -->
+
+        <!--==========================
+      Pricing Section
+    ============================-->
+    <section id="pricing" class="wow fadeInUp section-bg">
+
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Education</h3>
+          
+        </header>
+
+        <div class="row flex-items-xs-middle flex-items-xs-center">
+      
+          <!-- Basic Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h5>National institute of technology,Warangal</h5>
+              </div>
+              <div class="card-block">
+                <h5 class="card-title"> 
+                  Bachelor of Technology, Metallurgical and Materials Engineering
+                </h5>
+                <p>Current GPA : 7.95</p>
+                <p>
+                  2018-2022
+                </p>
+
+                
+              </div>
+            </div>
+          </div>
+      
+          <!-- Regular Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h4>FIITJEE Junior College</h4>
+              </div>
+              <div class="card-block">
+                <h5 class="card-title"> 
+                  Intermediate
+                </h5>
+              <p>95.9 percentage</p>
+              <p>2016-2022</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Premium Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h5>Sri Chaitanya Vidyanikethan International School</h5>
+              </div>
+              <div class="card-block">
+                <h5 class="card-title"> 
+                  Tenth Grade
+                </h5>
+              <p>10/10 GPA</p>
+              <p>2015-2016</p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+    </section><!-- #pricing -->
+
+
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Skills</h3>
+   
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Machine Learning</a></h4>
+              <p class="description">Have good knowledge on machine learning models,data preprocessing techniques and built many models, I also have basic knowledge on deep learning and also did some projects in OpenCV.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="">Competitive Programmer</a></h4>
+              <p class="description">Good at languages like C,C++ and Python and also good at problem solving and competitive programming.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Front end developer</a></h4>
+              <p class="description">Having kowledge in HTML, CSS, Bootstrap and JavaScript.</p>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Works</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Projects</li>
+              <li data-filter=".filter-card">Certifications</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/th.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://github.com/sashankvarma2000/Natural-gas-price-prediction" target="_blank">Natural Gas Price Prediction</a></h4>
+                <p>Project</p>
+                <div>
+                  <a href="th.jfif.jpg" data-lightbox="portfolio" data-title="Natural Gas Price Prediction" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="https://github.com/sashankvarma2000/Natural-gas-price-prediction " class="link-details" title="More Details" target="_blank"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/lepp.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://github.com/sashankvarma2000/Life_expectancy_prediction" target="_blank">Life_expectancy_prediction</a></h4>
+                <p>Project</p>
+                <div>
+                  <a href="img/lepp.jfif" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="https://github.com/sashankvarma2000/Life_expectancy_prediction" class="link-details" title="More Details" target="_blank"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/opencv.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="https://github.com/sashankvarma2000/OpenCV_projects" target="_blank">Projects in OpenCv</a></h4>
+                <p>Project</p>
+                <div>
+                  <a href="img/opencvjfif" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="https://github.com/sashankvarma2000/OpenCV_projects" class="link-details" title="More Details"target="_blank"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/Rudraraju_Varma (2).png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a>Data structures</a></h4>
+                <p>Certificate of internship and training in Algorithms,OOPs,System Design and WebDev</p>
+                <div>
+                  <a href="img/Rudraraju_Varma (2).png" class="link-preview" data-lightbox="portfolio" data-title="Certificate" title="Preview"><i class="ion ion-eye"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/python.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a>Python for Data Science</a></h4>
+                <p>Certificate</p>
+                <div>
+                  <a href="img/python.png" class="link-preview" data-lightbox="portfolio" data-title="Certificate" title="Preview"><i class="ion ion-eye"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/certy.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a>Data Analysis with Python</a></h4>
+                <p>Certificate</p>
+                <div>
+                  <a href="img/certy.png" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+ 
+
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+ 
+
+
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="social-links">
+              <a href="https://www.facebook.com/sashankvarma.rudraraju" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://instagram.com/sashank__varma?igshid=pi4pbvrjz1k1" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/sashank-varma-0b69071a8" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="github" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; sashank2000 
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
+      
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
-	
 </html>
+
